@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Dev Studio - Affordable Websites for South African Service Businesses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#1a237e" stroke-width="2"/>
+                            <rect x="16" y="16" width="8" height="8" stroke="#1a237e" stroke-width="1.5" rx="1"/>
+                            <circle cx="20" cy="12" r="1.5" fill="#1a237e"/>
+                            <circle cx="20" cy="28" r="1.5" fill="#1a237e"/>
+                            <circle cx="12" cy="20" r="1.5" fill="#1a237e"/>
+                            <circle cx="28" cy="20" r="1.5" fill="#1a237e"/>
+                            <line x1="20" y1="12" x2="20" y2="16" stroke="#7c3aed" stroke-width="1.5"/>
+                            <line x1="24" y1="20" x2="28" y2="20" stroke="#7c3aed" stroke-width="1.5"/>
+                        </svg>
+                        <span>Nova Dev Studio</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-us">Why Us</a></li>
+                        <li><a href="#portfolio">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button class="cta-button">Book Consultation</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Local Service Business Deserves a Website That Works</h1>
+                <!-- PERSONALIZE: Update headline to match your unique angle -->
+                
+                <p class="hero-subtitle">
+                    We build simple, affordable websites designed to turn visitors into customers. 
+                    No fluff. No complicated jargon. Just results.
+                </p>
+                <!-- PERSONALIZE: Adjust supporting paragraph to highlight your key differentiator -->
+                
+                <div class="hero-buttons">
+                    <button class="button button-primary" onclick="scrollToContact()">Book a Free Consultation</button>
+                    <button class="button button-secondary">See Our Work</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Nova Dev Studio</h2>
+                    <!-- PERSONALIZE: Add your founder story and mission -->
+                    
+                    <p>
+                        We started Nova Dev Studio because we saw a problem: Local service businesses—cleaners, plumbers, 
+                        electricians, salons, and tradespeople—were losing jobs to competitors with online presence. 
+                        Many tried expensive agencies or built websites that looked pretty but didn't generate a single lead.
+                    </p>
+                    
+                    <p>
+                        We built a different approach. We focus on what actually matters: a clean, professional website 
+                        that shows up in Google, builds trust with customers, and turns visitors into phone calls.
+                    </p>
+                    
+                    <p>
+                        Today, we help South African service businesses get online without the complexity, the long timelines, 
+                        or the corporate price tags.
+                    </p>
+                    <!-- PERSONALIZE: Add specific metrics, testimonials, or achievements -->
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Service Businesses Online</p>
+                        <!-- UPDATE: Change this number as your client base grows -->
+                    </div>
+                    <div class="stat">
+                        <h3>2 weeks</h3>
+                        <p>Average Launch Time</p>
+                    </div>
+                    <div class="stat">
+                        <h3>From R2,500</h3>
+                        <p>Affordable Pricing</p>
+                        <!-- PERSONALIZE: Update pricing if different -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>What We Do</h2>
+            <!-- PERSONALIZE: Add service descriptions and pricing if desired -->
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="6" y="8" width="36" height="32" rx="2" stroke="#7c3aed" stroke-width="2"/>
+                            <line x1="6" y1="16" x2="42" y2="16" stroke="#7c3aed" stroke-width="2"/>
+                            <circle cx="12" cy="28" r="2" fill="#7c3aed"/>
+                        </svg>
+                    </div>
+                    <h3>Website Design & Development</h3>
+                    <p>
+                        A professional, mobile-friendly website built specifically for service businesses. 
+                        Clean design. Fast loading. Built to convert visitors into customers.
+                    </p>
+                    <!-- PERSONALIZE: Add specific features or examples -->
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 8L32 28H16L24 8Z" stroke="#7c3aed" stroke-width="2" stroke-linejoin="round"/>
+                            <circle cx="24" cy="40" r="2" fill="#7c3aed"/>
+                            <line x1="24" y1="30" x2="24" y2="38" stroke="#7c3aed" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Website Redesign</h3>
+                    <p>
+                        Existing website not generating leads? We'll redesign it to be faster, cleaner, 
+                        and focused on turning visitors into customers.
+                    </p>
+                    <!-- PERSONALIZE: Add case studies or before/after examples -->
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="14" stroke="#7c3aed" stroke-width="2"/>
+                            <path d="M24 10V24L32 32" stroke="#7c3aed" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Basic SEO & Local Optimization</h3>
+                    <p>
+                        Get found on Google when customers search for your services in your area. 
+                        We handle Google My Business, local keywords, and technical SEO.
+                    </p>
+                    <!-- PERSONALIZE: Add specific SEO services or guarantees -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <h2>Why Choose Nova Dev Studio?</h2>
+            
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <h3>Built for Service Businesses</h3>
+                    <p>
+                        We don't build generic websites. Every site is designed for local trades and service 
+                        businesses—we know what converts.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <h3>Affordable Pricing</h3>
+                    <p>
+                        Professional websites shouldn't cost R50,000+. You get quality work at a price 
+                        that makes sense for your business.
+                    </p>
+                    <!-- PERSONALIZE: Add exact pricing or packages -->
+                </div>
+
+                <div class="why-card">
+                    <h3>Fast Turnaround</h3>
+                    <p>
+                        From first conversation to live website in 2 weeks. We respect your time and 
+                        get you online quickly.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <h3>Simple Process</h3>
+                    <p>
+                        No technical jargon. No endless meetings. We keep things straightforward and 
+                        transparent every step of the way.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <h3>Ongoing Support</h3>
+                    <p>
+                        Your website lives after launch. We're here to help with updates, content changes, 
+                        and keeping your site performing.
+                    </p>
+                    <!-- PERSONALIZE: Add support packages or guarantees -->
+                </div>
+
+                <div class="why-card">
+                    <h3>Local South African Focus</h3>
+                    <p>
+                        We understand the South African market. Local payment options, local SEO, 
+                        local customer behavior.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Recent Work</h2>
+            <!-- PERSONALIZE: Replace with real client projects and testimonials -->
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <!-- PERSONALIZE: Add real project screenshot or image -->
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Clean Sweep Cleaning Services</h3>
+                        <p class="portfolio-service">Website Design & SEO</p>
+                        <p>
+                            Johannesburg-based cleaning company needed an online presence. 
+                            We built a simple, professional site that captures leads from Google searches. 
+                            Client sees 8-10 inquiries per week.
+                        </p>
+                        <!-- PERSONALIZE: Add real client results and testimonial -->
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <!-- PERSONALIZE: Add real project screenshot or image -->
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Premier Plumbing Solutions</h3>
+                        <p class="portfolio-service">Website Redesign</p>
+                        <p>
+                            Existing website wasn't generating leads. We redesigned for clarity and 
+                            conversion—added emergency call button, service descriptions, and local SEO. 
+                            Lead inquiries increased 40% in first month.
+                        </p>
+                        <!-- PERSONALIZE: Add real client metrics and story -->
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">
+                            <!-- PERSONALIZE: Add real project screenshot or image -->
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Blissful Salon & Spa</h3>
+                        <p class="portfolio-service">Website Design & Basic SEO</p>
+                        <p>
+                            Salon in Durban needed online booking and local visibility. 
+                            Built mobile-friendly site with Google integration. Now ranks #1 for 
+                            "salon near me" in their area.
+                        </p>
+                        <!-- PERSONALIZE: Add real success metrics -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Get Your Business Online?</h2>
+            <p>
+                Let's chat about what your business needs. It's free, no obligation, 
+                and we'll give you a clear idea of what's possible.
+            </p>
+            <button class="button button-primary" onclick="scrollToContact()">Book a Free Consultation</button>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <!-- PERSONALIZE: Add your real contact details -->
+                    
+                    <div class="contact-details">
+                        <div class="detail">
+                            <h4>Email</h4>
+                            <p><a href="mailto:hello@novadevstudio.co.za">hello@novadevstudio.co.za</a></p>
+                            <!-- UPDATE: Add your email address -->
+                        </div>
+                        
+                        <div class="detail">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+27123456789">+27 (0) 12 345 6789</a></p>
+                            <!-- UPDATE: Add your phone number -->
+                        </div>
+                        
+                        <div class="detail">
+                            <h4>Location</h4>
+                            <p>South Africa</p>
+                            <!-- PERSONALIZE: Add specific city/region -->
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="business">Business Name</label>
+                        <input type="text" id="business" name="business" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Business</label>
+                        <textarea id="message" name="message" rows="5" placeholder="What service do you provide? What's your main goal for a website?" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="button button-primary">Book My Free Consultation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nova Dev Studio</h4>
+                    <p>Simple, affordable websites for South African service businesses.</p>
+                    <!-- PERSONALIZE: Add brief company description -->
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <!-- PERSONALIZE: Add social media links -->
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nova Dev Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
