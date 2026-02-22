@@ -1,4 +1,26 @@
 // ============================================
+// HAMBURGER MENU TOGGLE
+// ============================================
+
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+// Toggle menu on hamburger click
+hamburger.addEventListener('click', function() {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('active');
+});
+
+// Close menu when a link is clicked
+const navItems = navLinks.querySelectorAll('a');
+navItems.forEach(item => {
+    item.addEventListener('click', function() {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+    });
+});
+
+// ============================================
 // SMOOTH SCROLL & UTILITIES
 // ============================================
 
@@ -38,10 +60,3 @@ function handleFormSubmit(event) {
     // Reset form
     event.target.reset();
 }
-
-// ============================================
-// MOBILE MENU TOGGLE (Optional)
-// ============================================
-
-// Add this if you want to implement a mobile hamburger menu
-// You would need to add a menu button to the HTML first
